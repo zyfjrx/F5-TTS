@@ -24,8 +24,8 @@ class F5TTS:
     def __init__(
         self,
         model="F5TTS_v1_Base",
-        ckpt_file="",
-        vocab_file="",
+        ckpt_file="ckpts/F5TTS_v1_Base/model_1250000.safetensors",
+        vocab_file="ckpts/F5TTS_v1_Base/vocab.txt",
         ode_method="euler",
         use_ema=True,
         vocoder_local_path=None,
